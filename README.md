@@ -13,7 +13,7 @@ CSED232 OOP Team Project
 | 장경호 | 장소예약   |          | 기계 / 18학번            |
 | 전제민 | 포토그래퍼 |          | 컴공 / 18학번            |
 | 이태희 | 총무       |          | 무은재 / 19학번 / 치어로 |
-| 박효준 | 미정       |          | 무은재 19학번            |
+
 
 - 윤은영 교수님 : eyyoun@postech.ac.kr
 
@@ -31,10 +31,11 @@ Weekly : Friday 17:00 ~ 19:00
 
 ## Notice
 
-- weeklyReport 2 참고
+- weeklyReport 3 참고 !
 
 
 
 ## Materials
 
 - [github 사용법]([https://milooy](https://milooy/).[wordpress.com/2017/06/21/working-together-with-github-tutorial/](http://wordpress.com/2017/06/21/working-together-with-github-tutorial/))
+- https://github.com/jeonghwan-kim/git-usage>
