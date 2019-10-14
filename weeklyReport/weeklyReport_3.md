@@ -61,6 +61,14 @@
          - 구글에서 제공하는 api 과금문제 발생
       2. 임시방편으로 수동으로 음성의 텍스트 작성
 
+3. git hub
+
+   ```
+   git add *
+   git commit -m "message"
+   git push origin master
+   ```
+
 ## 차주 목표
 
 1. 영상팀
