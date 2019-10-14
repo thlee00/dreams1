@@ -24,7 +24,7 @@
       3. FaceSwap_GAN_v2.2_train_test.ipynb
       4. FaceSwap_GAN_v2.2_video_conversion.ipynb
    
-   2. 총 4단계 중 1단계 테스트 완료
+   2. 총 4단계 중 1단계(동영상에서 얼굴 이미지 추출) 테스트 완료
    
    1. 터미널에서 실행하기 위해 ipynb파일을 python 파일로 변환
    
@@ -34,23 +34,23 @@
    
    2. 유튜브에서 각자 다른 1~2분가량의 김연아 영상을 다운받아 `MTCNN_video_face_Detection_alignment.py`을 통해 얼굴 이미지파일 추출
    
-      3. **Trouble issue at `MTCNN_video_face_Detection_alignmentd`** 
+   5. **Trouble issue at `MTCNN_video_face_Detection_alignmentd`** 
    
       1. `get_ipython()`코드로 인한 python 으로 실행 불가.
    
-         - `python` 이 아닌 `ipython`으로 실행
+      - `python` 이 아닌 `ipython`으로 실행
    
-         2.  tesorflow의 sess모드 코드 이용
+      2.  tesorflow의 sess모드 코드 이용
    
-         - tensorflow 2.x이 아닌 1.xx 으로 downgrade,
+      - tensorflow 2.x이 아닌 1.xx 으로 downgrade,
    
-            - tensorflow 2.x 에서는 sess가 아닌 eager로 이용하기때문에 예전 버전의 코드사용으로 문제 발생.
+      - tensorflow 2.x 에서는 sess가 아닌 eager로 이용하기때문에 예전 버전의 코드사용으로 문제 발생.
    
-      3. `prep_binary_masks.ipynb` 단계 임시 skip
+   6. `prep_binary_masks.ipynb` 단계 임시 skip
    
-         - GPU사용을 위한 CUDA 설치에서 관리자권한(sudo)으로 설치 불가능
+      - GPU사용을 위한 CUDA 설치에서 관리자권한(sudo)으로 설치 불가능
    
-         - skip하더라도, 정확도는 떨어지지만  다음단계 진행에 차질 없음
+      - skip하더라도, 정확도는 떨어지지만  다음단계 진행에 차질 없음
    
       
    
