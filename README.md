@@ -38,4 +38,4 @@ Weekly : Friday 17:00 ~ 19:00
 ## Materials
 
 - [github 사용법]([https://milooy](https://milooy/).[wordpress.com/2017/06/21/working-together-with-github-tutorial/](http://wordpress.com/2017/06/21/working-together-with-github-tutorial/))
-- https://github.com/jeonghwan-kim/git-usage>
+- https://github.com/jeonghwan-kim/git-usage
