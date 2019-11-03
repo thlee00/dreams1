@@ -1,7 +1,13 @@
-# 11/2 Weekly Report
+# [OOP 11조 9주차 주간보고서]
 
-* 환경을 구성하기 위해서는 tensorflow와  conda 환경에서 받아야한다
-    * 하나의 conda 환경에는 하나의 python version과 tensorflow 환경을 갖는다
+> 회의 날짜 : 19.11.02 17:00 ~ 19:00 #4번째 회의
+>
+> 참석자 : 황성민, 전상규, 장경호, 이태희
+
+## 회의 내용 :
+
+* 환경을 구성하기 위해서는 tensorflow와  conda 환경 구축
+* 음성 데이터  제작
 
 ## Data
 
