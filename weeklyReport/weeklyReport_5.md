@@ -29,3 +29,6 @@
         * web에서 실시간으로 삽이하는 text에 대하여 train 목소리로 text를 읽는다.
       * ``python3 synthesizer.py --load_path logs/<log folder name>--text="Winter is coming." --is_korean=False``
         * "winder is coming"이라는 문장을 wav파일로 변환한다.
+
+
+### 영상팀
