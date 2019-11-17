@@ -74,7 +74,7 @@
 
      ```python
      $ python
-     >>> from notebook import passwd
+     >>> from notebook.auth import passwd
      >>> passwd()
      Enter password: # 원격 접속 최초 1회시 필요한 비밀번호
      Verify password: # 위에서 타이핑한 비밀번호를 한번 더 입력
