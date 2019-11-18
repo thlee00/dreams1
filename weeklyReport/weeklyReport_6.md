@@ -2,11 +2,6 @@
 
 > 회의 날짜 : 19.11.15 17:00 ~ 19:30 #6번째 회의 참석자 : 황성민, 전상규, 장경호, 이태희
 
-## Voice Swap
-
-
-
-
 
 ## Face swap(GAN)
 
@@ -52,6 +47,42 @@
 
 
 ## FACESWAP(deepfakes)
+
+* GAN 오픈소스에서 오류가 계속되어, 다른 오픈소스를 추가적으로 진행하기로 함.
+* deepfakes: https://github.com/deepfakes/faceswap#how-to-setup-and-run-the-project
+
+### Install
+
+* Anaconda는 이미 서버에 있어 추가적으로 설치하지 않음
+
+* 패키지가 겹치거나 충돌하는 것을 막기 위해 GAN을 진행하던 가상환경 py364와 별개로 python version 3.6의 가상환경 py36을 새로 만듦.
+
+* 오픈소스를 서버에 clone한 뒤 다음 코드로 오픈소스에 필요한 패키지 설치
+Install tkinter (required for the GUI) by typing: ' conda install tk '
+Install requirements: ' pip install -r requirements.txt '
+Install Tensorflow (either GPU or CPU version depending on your setup):
+Non GPU Version: ' conda install tensorflow-gpu '
+
+### Extract
+
+* 알맞은 폴더 경로에 얼굴을 추출할 동영상을 저장해두고 다음과 같이 얼굴 추출을 실행할 수 있음
+
+* # To extract Yuna from a video file:
+' python faceswap.py extract -i ~/OOP/LTH/faceswap/src/INPUT_VIDEO.mp4 -o ~/OOP/LTH/faceswap/faces/YUNA '
+
+* # To extract Boram from a video file:
+' python faceswap.py extract -i ~/OOP/LTH/faceswap/src/boram_video.mp4 -o ~/OOP/LTH/faceswap/faces/BORAM '
+
+### Train
+
+* 다음과 같이 김연아-보람이의 얼굴을 학습하고 둘을 바꿀 수 있는 정보를 담은 모델을 만드는 trian 시작 가능
+' python faceswap.py train -A ~/OOP/LTH/faceswap/faces/YUNA -B ~/OOP/LTH/faceswap/faces/BORAM -m ~/OOP/LTH/faceswap/yuna_boram_model/ '
+
+* "Enter" 키를 통해 train 중단 및 저장 가능
+
+* CPU를 활용하여 train을 시켜 50회 정도밖에 train 시키지 못하였음. 추후 GPU 활용하여 model을 만들고 convert 실시해야함.
+
+
 
 
 
