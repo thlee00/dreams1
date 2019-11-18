@@ -59,7 +59,7 @@
 
 ### Train Progress
 
-| ![](/home/kyu/Desktop/dreams1/src/2019-11-15_17-36-26.manual.png) | ![](/home/kyu/Desktop/multi-speaker-tacotron-tensorflow/samples/2019-11-17_02-09-02.manual.png) |
+| ![](../src/2019-11-15_17-36-26.manual.png) | ![](../src/2019-11-17_02-09-02.manual.png) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 4,000 train                                                  | 11,000 train                                                 |
 
