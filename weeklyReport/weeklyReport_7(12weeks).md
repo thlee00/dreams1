@@ -168,7 +168,7 @@ $python faceswap.py convert -i ~/OOP/LTH/faceswap/faces/YUNA/ -o ~/OOP/LTH/faces
    
    #해당 변수에 문자열 입력
    ele_id.send_keys("smhwang0515")
-   ele_pwd.send_keys("FINNtrptr2")
+   ele_pwd.send_keys("-------")
    
    #해당 class-name을 찾아 변수에 할당
    ele_login = driver.find_element_by_class_name("login_btn")
